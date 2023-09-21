@@ -2,12 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPages from "./pages/MainPages";
 import AddPages from "./pages/AddPages";
 import "./App.css";
-import data from "./Data/data.json";
-import { useState } from "react";
 
 function App() {
-  // const [data, setData] = useState(data);
-
   return (
     <BrowserRouter>
       <Routes>
